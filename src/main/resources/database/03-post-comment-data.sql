@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset krism:1
 insert into post(id, title, content, created) values (1, 'Test post 1', 'Content 1', '2022-09-08T16:08:13.085673200');
 insert into post(id, title, content, created) values (2, 'Test post 2', 'Content 2', '2022-09-09T16:08:13.086673500');
 insert into post(id, title, content, created) values (3, 'Test post 3', 'Content 3', '2022-09-10T16:08:13.086673500');
